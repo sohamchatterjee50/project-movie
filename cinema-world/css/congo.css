@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	width:100%;
+	height:100%;
+}
+header
+{
+	width:100%;
+	background:white;
+}
+table
+{
+	width:100%;
+}
+.headlink
+{
+	text-decoration:none;
+	color:#00B5E0;
+	font-weight:300;
+}
+a
+{
+	font-family:Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	color:white;
+	font-weight:400;
+}
+a:hover
+{
+	color: #00B5E0;
+}
+a.headlink:hover
+{
+	color:#FFDA2D;
+}
+nav
+{
+	width:auto;
+	height:30px;
+	padding:5px;
+	background:#1F2533;
+	font-size:14px;
+}
+#navmenu ul
+{
+	list-style:none;	
+}
+#navmenu ul li
+{
+	padding-left:6%;
+	width:13%;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	position:relative;
+	float:left;
+}
+#navmenu ul li a
+{
+display:block;
+}
+section
+{
+	padding-top:20px;
+	width:100%;
+	height:600px;
+	background-image:url(../images/booking%20background/White_Background_01.jpg);
+}
+footer
+{
+	width:100%;
+	height:auto;
+	background:#333338;
+	font-size:14px;
+}
+b
+{
+	font-family:Verdana,Geneva,sans-serif;
+	font-weight:400;
+	color:#00B5E0;
+}
+#selectcity
+{
+	padding-left:5px;
+	min-width:90px;
+	min-height:30px;
+	border-color:#00B5E0;
+	border-radius:3px;
+}
+#searchbox
+{
+	min-width:auto;
+	min-height:28px;
+}
+#searchbutton
+{
+	min-height:33px;
+	min-width:80px;
+	color:white;
+	background-color:#00B5E0;
+	border-radius:3px;
+	cursor:pointer;
+}
+div.navbar
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:500;
+}
+li.foot
+{
+	padding:2px;
+	list-style:none;
+}
+li.foot a img
+{
+	border-radius:6px;
+}
+h1
+{
+	text-decoration:blink;
+	font-size:32px;
+	font-family: "Arial", Helvetica, sans-serif;
+	font-weight:bold;
+	color:green;
+}
+h2
+{
+	font-family: "Arial", Helvetica, sans-serif;
+	color:#00B5E0;
+	font-weight:300;
+}
+#container
+{
+		padding-top:10%;
+}
+#Print_ticket
+{
+	font-weight:bold;
+	font-size:16px;
+	min-height:50px;
+	min-width:15%;
+	color:white;
+	background-color:#00B5E0;
+	border-radius:10px;
+	cursor:pointer;
+	
+	
+}
+#Print_ticket:hover
+{
+	
+	color:green;
+}
+#footer
+{
+	font-family:Verdana,Geneva,sans-serif;
+	font-weight:400;
+	color:#00B5E0;
+}

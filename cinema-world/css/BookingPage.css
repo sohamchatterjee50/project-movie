@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	width:100%;
+	height:auto;
+	background-image:theatre.jpeg;
+}
+header
+{
+	width:100%;
+	background:white;
+}
+table
+{
+	width:100%;
+}
+.headlink
+{
+	text-decoration:none;
+	color:#00B5E0;
+	font-weight:300;
+}
+a
+{
+	font-family:Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	color:white;
+	font-weight:400;
+}
+a:hover
+{
+	color: #00B5E0;
+}
+a.headlink:hover
+{
+	color:#FFDA2D;
+}
+nav
+{
+	width:auto;
+	height:30px;
+	padding:5px;
+	background:#1F2533;
+	font-size:14px;
+}
+#navmenu ul
+{
+	list-style:none;	
+}
+#navmenu ul li
+{
+	padding-left:6%;
+	width:13%;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	position:relative;
+	float:left;
+}
+#navmenu ul li a
+{
+display:block;
+}
+section
+{
+	padding-top:10px;
+	padding-bottom:5px;
+	width:100%;
+	height:600px;
+	background-image:theatre.jpeg;
+	background-position:top;
+}
+#sectionbackground
+{
+	padding-top:10px;
+	width:100%;
+	height:600px;
+	background-image:url(../images/booking%20background/White_Background_01.jpg);
+	background-position:top;
+}
+footer
+{
+	height:auto;
+	background:#333338;
+	font-size:14px;
+}
+b
+{
+	font-family:Verdana,Geneva,sans-serif;
+	font-weight:400;
+	color:#00B5E0;
+}
+#selectcity
+{
+	padding-left:5px;
+	min-width:90px;
+	min-height:30px;
+	border-color:#00B5E0;
+	border-radius:3px;
+}
+#searchbox
+{
+	min-width:auto;
+	min-height:28px;
+}
+#searchbutton
+{
+	min-height:33px;
+	min-width:80px;
+	color:white;
+	background-color:#00B5E0;
+	border-radius:3px;
+	cursor:pointer;
+}
+div.navbar
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:500;
+}
+li.foot
+{
+	padding:2px;
+	list-style:none;
+}
+li.foot a img
+{
+	border-radius:6px;
+}
+#box
+{
+	padding:10px;
+}
+#menuhead
+{
+	font-family:Verdana, Geneva, sans-serif;
+	width:99.9%;
+	height:40px;
+	background-color:#00B5E0;
+	line-height:40px;
+	color:white;
+	font-weight:600;
+}
+#tablepad
+{
+	padding-left:10px;
+	padding-right:10px;
+}
+#footer
+{
+	font-family:Verdana,Geneva,sans-serif;
+	font-weight:400;
+	color:#00B5E0;
+}
+
+fieldset
+{
+	padding:10px;
+	width:50%;
+	height:100%;
+  border:2px solid #AED0EA;
+  border-radius:8px;
+  box-shadow:0 0 12px #D7EBF9;
+}
+legend
+{
+	font-family: "Arial", Helvetica, sans-serif;
+  font-size: 120%;
+  text-align: center;
+  color:#2779AA;
+}
+#padtable
+{
+	padding-top:0px;
+}
+.padtd
+{
+	padding:7px;
+}
+#city_name
+{
+	min-width:180px;
+	min-height:30px;
+	padding-left:5px;
+}
+#movie_name
+{
+	min-width:180px;
+	min-height:30px;
+	padding-left:5px;
+}
+#theaters
+{
+	min-width:180px;
+	min-height:30px;
+	padding-left:5px;
+}
+#Show_timing
+{
+	min-width:180px;
+	min-height:30px;
+	padding-left:5px;
+}
+#date
+{
+	min-width:180px;
+	min-height:30px;
+	padding-left:5px;
+}
+#email,#contact
+{
+	min-width:180px;
+	min-height:30px;
+	padding-left:5px;
+}
+#tickets_quantity
+{
+	min-width:180px;
+	min-height:30px;
+	padding-left:5px;
+}
+#tickets_quantity
+{
+	min-width:185px;
+	min-height:30px;
+	padding-left:5px;
+}
+#total_price,#Seat_selected
+{
+	min-width:175px;
+	min-height:30px;
+	padding-left:5px;
+}
+#ticket_class
+{
+	min-width:180px;
+	min-height:30px;
+	padding-left:5px;
+}
+#submit,#back
+{
+	min-width:120px;
+	min-height:30px;
+	border-radius:3px;
+	box-shadow:0 0 10px #D7EBF9;
+	background-color:#00B5E0;
+	color:White;
+	cursor:pointer;
+}
+label
+{
+	font-family: "Arial", Helvetica, sans-serif;
+	width: 70%;
+  text-align: right;
+  float: left;
+  clear: both;
+  color: #2779AA;
+}
+p input, p select{
+  width: auto;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #2779AA;
+}
+#mandatory
+{
+	color:red;
+	font-weight:300;
+}
+#disount_title
+{
+	font-family: "Arial", Helvetica, sans-serif;
+	color: #2779AA;
+  font-size: 120%;
+  text-align: center;
+	font-weight:400;
+}
+.disc
+{
+	font-family: "Arial", Helvetica, sans-serif;
+	color: #2779AA;
+  font-size: 90%;
+  text-align: center;
+  font-weight:100;
+}
